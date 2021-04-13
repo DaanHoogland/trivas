@@ -1,0 +1,14 @@
+sudo: required
+dist: bionic
+group: stable
+
+language: java
+
+jdk:
+  - openjdk11
+
+python:
+  - "3.9"
+
+before_install: travis_wait 30 ./before_install.sh
+install: ./install.sh
