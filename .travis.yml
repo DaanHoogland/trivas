@@ -10,5 +10,5 @@ jdk:
 python:
   - "3.9"
 
-before_install: travis_wait 30 ./before_install.sh
+before_install: ./before_install.sh
 install: ./install.sh
