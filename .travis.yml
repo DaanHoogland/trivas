@@ -2,11 +2,6 @@ sudo: required
 dist: bionic
 group: stable
 
-language: java
-
-jdk:
-  - openjdk11
-
 python:
   - "3.9"
 
