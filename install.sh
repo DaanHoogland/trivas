@@ -6,4 +6,5 @@ source bin/activate
 which python
 which python2
 python --version
+cd
 bash -x runtests.sh
