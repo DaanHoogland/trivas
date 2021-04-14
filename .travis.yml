@@ -2,6 +2,8 @@ sudo: required
 dist: bionic
 group: stable
 
+language: minimal
+
 python:
   - "3.9"
 
