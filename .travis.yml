@@ -7,3 +7,4 @@ python:
 
 before_install: ./before_install.sh
 install: ./install.sh
+script: true
