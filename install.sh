@@ -1,3 +1,6 @@
+echo -e "\installing version: "
+python --version
+
 python2 -m pip install --user --upgrade setuptools pycodestyle pylint flask nose
 python2 -m pip install virtualenv
 cd subdir
@@ -8,6 +11,7 @@ cd py2/
 source bin/activate
 which python
 which python2
+echo -e "\activated version: "
 python --version
 cd $DIR
 bash -x runtests.sh
