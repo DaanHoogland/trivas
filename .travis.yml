@@ -2,10 +2,10 @@ sudo: required
 dist: bionic
 group: stable
 
-language: minimal
+language: java
 
 python:
-  - "3.9"
+  - "3.6"
 
 before_install: ./before_install.sh
 install: ./install.sh
